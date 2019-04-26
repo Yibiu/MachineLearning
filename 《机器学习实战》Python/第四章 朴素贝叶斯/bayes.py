@@ -5,11 +5,11 @@ from numpy import *
 #                  vocabulary
 #                      |
 #                      \/
-# documents ---->  documents_vec
+# documents ---->  documents_vec  ---->  class prob
+#                                           |
+#                                           \/
+# sample    ---->  sample_vec     ---->   sample prob ----> result
 #
-#
-
-
 ######################################################################
 #
 # 说明：
